@@ -1,0 +1,29 @@
+body {
+    color:red;
+    font-family:verdana;
+        color:707070;
+}
+
+.bannerTitle {
+    color:707070;
+    text-align: center;
+    
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.scrollable {
+    height: 100px; /* or any value */
+    overflow-y: auto;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.logo {
+    max-width: 100%;
+    overflow-x: hidden;
+}
