@@ -14,6 +14,16 @@ function showVideo(x){
     document.getElementById(x).src="https://www.youtube.com/embed/"+x;
 }
 
+function showVideo2(x){
+    document.getElementById("2"+x).style.display="block";
+    //document.getElementById("2"+x).src="https://www.youtube.com/embed/"+x;
+}
+
+function showVideo3(x){
+    document.getElementById("3"+x).style.display="block";
+    document.getElementById("3"+x).src="https://www.youtube.com/embed/"+x;
+}
+
 function showVimeoVideo(x){
     document.getElementById("x"+x).style.display="block";
     document.getElementById(x).src="http://player.vimeo.com/video/"+x;
